@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+}
+
+.bg_1{
+    background-image: url(../week15/images/sky1.jpg);
+}
+
+.bg_2{
+    background-image: url(../week15/images/sky2.jpg);
+}
+
+.bg_3{
+    background-image: url(../week15/images/sky3.jpg);
+}
+
+.bg_4{
+    background-image: url(../week15/images/sky4.jpg);
+}
+
+.color_1{
+    background-color: rgb(192, 184, 173);
+}
+
+.color_2{
+    background-color: rgb(162, 171, 175);
+}
+
+.color_3{
+    background-color: rgb(156, 146, 161);
+}
+
+html,body{
+    height: 100%;
+}
+.fixed_bg, .infos{
+    position: relative;
+    height: 100%;
+}
+.fixed_bg{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.vcenter{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    color: aliceblue;
+}
